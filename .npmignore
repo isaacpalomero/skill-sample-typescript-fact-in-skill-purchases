@@ -12,3 +12,4 @@ out
 src/
 tests/
 .vscode/
+tools/*

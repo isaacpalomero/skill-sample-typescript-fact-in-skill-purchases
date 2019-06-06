@@ -24,5 +24,5 @@ export interface RequestAttributes {
 
 export interface MySessionAttributes {
   entitledProducts: services.monetization.InSkillProduct[];
-  //[key: string]: any;
+  // [key: string]: any;
 }

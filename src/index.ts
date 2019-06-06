@@ -1,7 +1,7 @@
 // Alexa Fact Skill - Sample for Beginners
 /* eslint no-use-before-define: 0 */
 // sets up dependencies
-import { Response, SessionEndedRequest, RequestEnvelope, services, interfaces, Directive } from "ask-sdk-model";
+import { Response, services, interfaces } from "ask-sdk-model";
 import {
   SkillBuilders,
   RequestInterceptor,
@@ -10,10 +10,9 @@ import {
   ErrorHandler as ASKErrorHandler,
   ResponseInterceptor,
 } from "ask-sdk-core";
-import { RequestAttributes, MySessionAttributes } from "./interfaces";
+import { MySessionAttributes } from "./interfaces";
 import { ALL_FACTS, Fact } from "./lib/facts";
 import { getAllEntitledProducts, getFilteredFacts, getRandomFact, getRandomGoodbye, getRandomYesNoQuestion, getSpeakableListOfProducts, getResolvedValue, isProduct, getSpokenValue, isEntitled } from "./lib/helpers";
-import { Interface } from "readline";
 
 const skillName = "Premium Facts Sample";
 /* eslint-disable no-console */
