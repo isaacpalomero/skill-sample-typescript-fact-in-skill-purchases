@@ -1,0 +1,26 @@
+{
+  "typescript.tsdk": "node_modules/typescript/lib/",
+  "editor.fontFamily": "FiraCode-Retina",
+  "editor.fontLigatures": true,
+  "editor.formatOnPaste": true,
+  "editor.formatOnSave": true,
+  "search.exclude": {
+    "**/.git": true, // this is a default value
+    "**/.DS_Store": true, // this is a default value
+    "**/node_modules": true, // this excludes all folders 
+    // named "node_modules" from 
+    // the explore tree
+    // alternative version
+    "node_modules": true, // this excludes the folder 
+    // only from the root of
+    // your workspace 
+    "lambda/custom/package.json": true
+  },
+  "files.watcherExclude": {
+    "lambda/custom/**": true
+  },
+  "npm.exclude": [
+    "**/lambda/custom/package.json"
+  ],
+  "eslint.enable": false
+}
