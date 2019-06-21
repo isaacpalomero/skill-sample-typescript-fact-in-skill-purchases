@@ -1,9 +1,9 @@
 // Alexa Fact Skill - Sample for Beginners
 /* eslint no-use-before-define: 0 */
 // sets up dependencies
+import { SkillBuilders } from "ask-sdk";
 import { Response, services, interfaces } from "ask-sdk-model";
 import {
-  SkillBuilders,
   RequestInterceptor,
   RequestHandler,
   HandlerInput,
@@ -635,7 +635,7 @@ export class ResponseLog implements ResponseInterceptor {
   }
 }
 
-const skillBuilder = SkillBuilders.custom();
+const skillBuilder = SkillBuilders.standard();
 
 exports.handler = skillBuilder
   .addRequestHandlers(
