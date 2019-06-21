@@ -8,8 +8,8 @@
         "name": "Space Pack",
         "summary": "The space pack is a great addition because you will hear facts about space.",
         "description": "The space pack expands the set of facts shared with you to include facts about space.",
-        "smallIconUri": "https://s3.amazonaws.com/CAPS-SSE/echo_developer/e0af/f7e1b13a3a7f485183bc9a00d5541b7f/APP_ICON?versionId=5Wl.qYYlL.CxZgEwEEZ9vUqeJ19N4FqO&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20190606T092122Z&X-Amz-SignedHeaders=host&X-Amz-Expires=86400&X-Amz-Credential=AKIAJFEYRBGIHK2BBYKA%2F20190606%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=83d6805cc6e93908c8f87df49e816ae73f7b2befe482207fba7e3cb012c3f9d8",
-        "largeIconUri": "https://s3.amazonaws.com/CAPS-SSE/echo_developer/b263/f511a57bcf4943abbf1477f0df3fc94f/APP_ICON_LARGE?versionId=0B91tX8MWdulWzZJ0Y_297b9nstDUDwq&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20190606T092122Z&X-Amz-SignedHeaders=host&X-Amz-Expires=86400&X-Amz-Credential=AKIAJFEYRBGIHK2BBYKA%2F20190606%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=1aa09b4ce3c8f7ed50f9e11e5773d432c149118a5225707857c6fb55c68e88e6",
+        "smallIconUri": "https://s3.amazonaws.com/CAPS-SSE/echo_developer/8c81/d93996933c574b758d7ffcf0f954abaf/APP_ICON?versionId=JjSe6B5nKLFumjFnj7s2ZxWaHXMgNy5Q&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20190621T084800Z&X-Amz-SignedHeaders=host&X-Amz-Expires=86400&X-Amz-Credential=AKIAJFEYRBGIHK2BBYKA%2F20190621%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=cae45525a39b7421491b0bf9874fcf2118e1a6470a08bcd3901b0daac5736f40",
+        "largeIconUri": "https://s3.amazonaws.com/CAPS-SSE/echo_developer/dd74/536d026c84f64a928857abddbd0451fd/APP_ICON_LARGE?versionId=zehvSfIYdKCq_g0QG.UIGMmDsvmEkiG1&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20190621T084800Z&X-Amz-SignedHeaders=host&X-Amz-Expires=86400&X-Amz-Credential=AKIAJFEYRBGIHK2BBYKA%2F20190621%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=f75b8dc56201dd03fdefc3d6fea05fc751197653e72979bd78d7649353c7cabb",
         "examplePhrases": [
           "buy space pack"
         ],

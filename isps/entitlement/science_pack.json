@@ -8,8 +8,8 @@
         "name": "Science Pack",
         "summary": "The science pack is a great addition because you will hear facts about science.",
         "description": "The science pack expands the set of facts shared with you to include facts about science.",
-        "smallIconUri": "https://s3.amazonaws.com/CAPS-SSE/echo_developer/e625/950ec9c5ba124b19ac542880a63d44bc/APP_ICON?versionId=ObU.pdIL2GLhfmK1wCEbWpOjEnlBFyP3&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20190606T092121Z&X-Amz-SignedHeaders=host&X-Amz-Expires=86400&X-Amz-Credential=AKIAJFEYRBGIHK2BBYKA%2F20190606%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=dfa5c99a78f26f02579fd61f721ebda3c014942b8f89ac9c597cec443284633f",
-        "largeIconUri": "https://s3.amazonaws.com/CAPS-SSE/echo_developer/9a2b/9eab1366c146437482ca53216f00207e/APP_ICON_LARGE?versionId=r3iyAVdKenyEVZ0wF.63tpPg5QYap49v&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20190606T092121Z&X-Amz-SignedHeaders=host&X-Amz-Expires=86400&X-Amz-Credential=AKIAJFEYRBGIHK2BBYKA%2F20190606%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=3686112c23d220ec2ef1564a205982e84f4c8eb238581d71aed750b2d6cad5ed",
+        "smallIconUri": "https://s3.amazonaws.com/CAPS-SSE/echo_developer/b1d6/7fa908a13d5d413e8f8a52b222bb07b8/APP_ICON?versionId=rj2LKks9WtNtybusJlnJZ2ChEaPGdjtC&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20190621T084759Z&X-Amz-SignedHeaders=host&X-Amz-Expires=86400&X-Amz-Credential=AKIAJFEYRBGIHK2BBYKA%2F20190621%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=fcb09ba4684307c334853e4b5d5b3056b26eae4a89d6d2496af7495207659c0d",
+        "largeIconUri": "https://s3.amazonaws.com/CAPS-SSE/echo_developer/ae27/210c3ba5255445828f19f505c793b9de/APP_ICON_LARGE?versionId=Cd4F.l8hP2_3fjWwnMHR1LSjZF6xscdH&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20190621T084759Z&X-Amz-SignedHeaders=host&X-Amz-Expires=86400&X-Amz-Credential=AKIAJFEYRBGIHK2BBYKA%2F20190621%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=9a4b34de00e572ecdae0c02b58deeb82c203d6ef53544e3357655dde1902aef6",
         "examplePhrases": [
           "buy science pack"
         ],

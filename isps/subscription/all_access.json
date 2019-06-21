@@ -12,8 +12,8 @@
         "name": "All Access",
         "summary": "All Access is a great addition because you will hear facts about history, science and space, plus any future categories added.",
         "description": "All Access expands the set of facts shared with you to include facts about history, science and space.",
-        "smallIconUri": "https://s3.amazonaws.com/CAPS-SSE/echo_developer/71e0/288424e7056c457eaf8b07985e7b7641/APP_ICON?versionId=d8_GXEE7b_nj.E69byKjxUHO2DYnSZHX&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20190606T092119Z&X-Amz-SignedHeaders=host&X-Amz-Expires=86400&X-Amz-Credential=AKIAJFEYRBGIHK2BBYKA%2F20190606%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=275d240dc77407895b132638c9ae8d2150eca028a054d83630dc42e0565c15dd",
-        "largeIconUri": "https://s3.amazonaws.com/CAPS-SSE/echo_developer/ba92/0a08aced9d8b4c49b10d18a0f96e4ffe/APP_ICON_LARGE?versionId=KlghoEUM0mQlNDieaImk.JrxO_w8NCgV&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20190606T092119Z&X-Amz-SignedHeaders=host&X-Amz-Expires=86400&X-Amz-Credential=AKIAJFEYRBGIHK2BBYKA%2F20190606%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=46398a62923b0e9f211935b836a036b48391814d2067561cccd66431e8f5fdf4",
+        "smallIconUri": "https://s3.amazonaws.com/CAPS-SSE/echo_developer/7ef5/6a1758e019824480ac0b1ff91e100dda/APP_ICON?versionId=xV8azlNqdC9LbtuQHEB.BxyJgXqlC37H&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20190621T084802Z&X-Amz-SignedHeaders=host&X-Amz-Expires=86400&X-Amz-Credential=AKIAJFEYRBGIHK2BBYKA%2F20190621%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=5cdfdc41b3f1c5b6fa594c1d558a3921718b132f64dd6c53d381302924a9c51a",
+        "largeIconUri": "https://s3.amazonaws.com/CAPS-SSE/echo_developer/a7d9/207d58bcbc674996ab2064af868be8f4/APP_ICON_LARGE?versionId=QfOAdrYAXWI9t8JuWUh7YlgJuA243ZTk&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20190621T084802Z&X-Amz-SignedHeaders=host&X-Amz-Expires=86400&X-Amz-Credential=AKIAJFEYRBGIHK2BBYKA%2F20190621%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=31d455348f32a5338b73fdcc55d7a0490c064d6cfe75ab58340de62bbfb15b20",
         "examplePhrases": [
           "Buy All Access"
         ],
