@@ -9,14 +9,14 @@
 // [root-project-path]$ ts-node tools/UpdateRevisionID.ts
 
 // TODO: update this values with yours
-const awsCli_ProfileName = "AWS_CLI_Profile_Name";
-const askCli_ProfileName = "ASK_CLI_Profile_Name";
+const awsCli_ProfileName = "YOUR-AWS-CLI-PROFILE"; // Download Lambda purpose
+const askCli_ProfileName = "YOUR-ASK-CLI-PROFILE"; // Update .ask/config file purpose
 // END-TODO
+
 import * as path from "path";
 import * as fs from "fs";
 const execa = require("execa");
-const skillRoot = path.join(__dirname, "..");
-const functionRoot = path.join(skillRoot, "lambda", "custom");
+const skillRoot = path.join(__dirname, "../");
 const askConfigPath = path.join(skillRoot, ".ask", "config");
 const askConfig = JSON.parse(fs.readFileSync(askConfigPath, "utf8"));
 const { functionName } = askConfig.deploy_settings[askCli_ProfileName].resources.lambda[0];
@@ -29,9 +29,8 @@ async function main() {
 
         const revisionId = functionInfo.Configuration.RevisionId;
 
-        console.log("Downloading function contents from AWS");
-
-        await execa("ask", ["lambda", "--profile", askCli_ProfileName, "download", "--function", functionName], { cwd: functionRoot, stdio: "inherit" });
+        // console.log("Downloading function contents from AWS");
+        // await execa("ask", ["lambda", "--profile", askCli_ProfileName, "download", "--function", functionName], { cwd: functionRoot, stdio: "inherit" });
 
         console.log("Updating skill's revisionId");
         askConfig.deploy_settings[askCli_ProfileName].resources.lambda[0].revisionId = revisionId;

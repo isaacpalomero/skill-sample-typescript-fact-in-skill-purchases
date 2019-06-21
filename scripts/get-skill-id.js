@@ -9,6 +9,10 @@
 // ⌞ $ source ~/.bash_profile
 // ⌞ [PROJECTPATH]$ ask api get-model --locale en-US --skill-id `gskill`
 
+// TODO: update this values with yours
+const PROFILE_NAME = "YOUR-PROFILE"; // Read and Update .ask/config file purpose
+// End TODO
+
 
 const fs = require('fs');
 const path = require('path');
@@ -60,6 +64,6 @@ if (configFile) {
         // prase the JSON
         obj = JSON.parse(data);
         // print the skill id
-        console.log(obj.deploy_settings.default.skill_id);
+        console.log(obj.deploy_settings[PROFILE_NAME].skill_id);
     });
 }

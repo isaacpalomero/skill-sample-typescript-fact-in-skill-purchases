@@ -60,6 +60,84 @@
       "problemMatcher": [
         "$eslint-stylish"
       ]
+    },
+    {
+      "label": "Update Lambda Revision",
+      "type": "shell",
+      "command": [
+        "ts-node ./scripts/update-lambda-revision-id.ts"
+      ],
+      "problemMatcher": [],
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      }
+    },
+    {
+      "label": "Get Skill ID",
+      "type": "shell",
+      "command": [
+        "ts-node ./scripts/get-skill-id.ts"
+      ],
+      "problemMatcher": [],
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      }
+    },
+    {
+      "label": "Add Local and Remote ISP Files to Ask Config",
+      "type": "shell",
+      "command": [
+        "ts-node ./scripts/add-ISP-files-to-ask-config.ts"
+      ],
+      "problemMatcher": [],
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      }
+    },
+    {
+      "label": "Release and Deploy Lambda",
+      "type": "shell",
+      "command": [
+        "npm run release;",
+        "ask deploy --profile \"YOUR-ASK-CLI-PROFILE\" --target \"lambda\""
+      ],
+      "problemMatcher": [],
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      }
+    },
+    {
+      "label": "Quick-Release and Deploy Lambda",
+      "type": "shell",
+      "command": [
+        "npm run quick-release;",
+        "ask deploy --profile \"YOUR-ASK-CLI-PROFILE\" --target \"lambda\""
+      ],
+      "problemMatcher": [],
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      }
+    },
+    {
+      "label": "Download Remote Skill (Full)",
+      "type": "shell",
+      "command": [
+        "skillId=$(ts-node ./scripts/get-skill-id.ts);",
+        "rm -r remote/;",
+        "mkdir ./remote;",
+        "cd remote;",
+        "ask clone --skill-id $skillId --profile \"YOUR-ASK-CLI-PROFILE\""
+      ],
+      "problemMatcher": [],
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      }
     }
   ]
 }
