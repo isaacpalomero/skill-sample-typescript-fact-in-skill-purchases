@@ -8,8 +8,8 @@
         "name": "Science Pack",
         "summary": "The science pack is a great addition because you will hear facts about science.",
         "description": "The science pack expands the set of facts shared with you to include facts about science.",
-        "smallIconUri": "https://github.com/alexa/skill-sample-nodejs-fact-in-skill-purchases/raw/master/isps.samples/s_blue_small.png",
-        "largeIconUri": "https://github.com/alexa/skill-sample-nodejs-fact-in-skill-purchases/raw/master/isps.samples/s_blue_large.png",
+        "smallIconUri": "https://s3.amazonaws.com/CAPS-SSE/echo_developer/b1d6/7fa908a13d5d413e8f8a52b222bb07b8/APP_ICON?versionId=rj2LKks9WtNtybusJlnJZ2ChEaPGdjtC&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20190621T084759Z&X-Amz-SignedHeaders=host&X-Amz-Expires=86400&X-Amz-Credential=AKIAJFEYRBGIHK2BBYKA%2F20190621%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=fcb09ba4684307c334853e4b5d5b3056b26eae4a89d6d2496af7495207659c0d",
+        "largeIconUri": "https://s3.amazonaws.com/CAPS-SSE/echo_developer/ae27/210c3ba5255445828f19f505c793b9de/APP_ICON_LARGE?versionId=Cd4F.l8hP2_3fjWwnMHR1LSjZF6xscdH&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20190621T084759Z&X-Amz-SignedHeaders=host&X-Amz-Expires=86400&X-Amz-Credential=AKIAJFEYRBGIHK2BBYKA%2F20190621%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=9a4b34de00e572ecdae0c02b58deeb82c203d6ef53544e3357655dde1902aef6",
         "examplePhrases": [
           "buy science pack"
         ],

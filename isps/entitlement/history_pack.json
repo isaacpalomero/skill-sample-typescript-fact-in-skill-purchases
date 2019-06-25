@@ -8,8 +8,8 @@
         "name": "History Pack",
         "summary": "The history pack is a great addition because you will hear facts about history.",
         "description": "The history pack expands the set of facts shared with you to include facts about history.",
-        "smallIconUri": "https://github.com/alexa/skill-sample-nodejs-fact-in-skill-purchases/raw/master/isps.samples/h_blue_small.png",
-        "largeIconUri": "https://github.com/alexa/skill-sample-nodejs-fact-in-skill-purchases/raw/master/isps.samples/h_blue_large.png",
+        "smallIconUri": "https://s3.amazonaws.com/CAPS-SSE/echo_developer/a7c9/b42939f3718042e4b386f948f74a359d/APP_ICON?versionId=PC2xvbLU13QJ32WREUsL1VV8ytbfpbnu&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20190621T084758Z&X-Amz-SignedHeaders=host&X-Amz-Expires=86400&X-Amz-Credential=AKIAJFEYRBGIHK2BBYKA%2F20190621%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=f227127483dacd92abf0583b2d3e094cbfe4aa3b2863eefb31b1657734fa37b4",
+        "largeIconUri": "https://s3.amazonaws.com/CAPS-SSE/echo_developer/2f15/d0c369e21414418b97dc98f9d7e6f0f7/APP_ICON_LARGE?versionId=QvtYPrTACg2QvJ4z3Ov02cx4dO_jEDg_&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20190621T084758Z&X-Amz-SignedHeaders=host&X-Amz-Expires=86400&X-Amz-Credential=AKIAJFEYRBGIHK2BBYKA%2F20190621%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=bafbeba58707d63ea845590c611f65fbba443a6cdaf72f600c9b93cf4e19deb5",
         "examplePhrases": [
           "buy history pack"
         ],

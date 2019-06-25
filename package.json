@@ -1,0 +1,84 @@
+{
+  "name": "skill-sample-typescript-premium-facts",
+  "version": "0.0.0",
+  "description": "In Skill Purchasing sample skill with Typescript",
+  "license": "Apache-2.0",
+  "private": false,
+  "author": {
+    "name": "Isaac Palomero Bertran",
+    "email": "isaac.palomero@linkeit.com"
+  },
+  "keywords": [
+    "test",
+    "alexa",
+    "template",
+    "typescript",
+    "in-skill",
+    "isp"
+  ],
+  "files": [
+    "out/build"
+  ],
+  "main": "out/build/index",
+  "types": "out/build/index",
+  "scripts": {
+    "clean": "rimraf out/build && rimraf coverage",
+    "format": "prettier --write \"{src,tests}/**/*.ts\"",
+    "lint": "tslint --force --format verbose \"src/**/*.ts\"",
+    "prepublishOnly": "npm run build",
+    "prebuild": "npm run clean && npm run lint && npm run copy && echo Using TypeScript && tsc --version",
+    "build": "tsc",
+    "test": "jest",
+    "coverage": "jest --coverage",
+    "watch": "npm run build -- --watch",
+    "watch:test": "jest --watch",
+    "copy": "cpx \"src/**/*.{json,sql}\" out/build",
+    "release-patch": "npm version patch & npm run release",
+    "release-minor": "npm version minor & npm run release",
+    "release-major": "npm version major & npm run release",
+    "release": "npm run build && npm run clean:release && npm run copy:release && npm run build:release",
+    "quick-release": "npm run build && rimraf lambda/custom/{lib}/**/*.* && rimraf lambda/custom/*.* && npm run copy:release",
+    "build:release": "cd lambda/custom/ && npm install --production && rimraf \"package*.json\" && bestzip \"../release_$npm_package_version.zip\" * && cd ../..",
+    "clean:release": "rimraf lambda/custom/",
+    "copy:release": "cpx \"out/build/**/*.js\" lambda/custom/ && cpx \"src/**/*.{sql}\" lambda/custom/ && cpx \"package.json\" lambda/custom/"
+  },
+  "dependencies": {
+    "axios": "^0.19.0",
+    "ask-sdk": "^2.6.0",
+    "ask-sdk-core": "^2.6.0",
+    "ask-sdk-model": "^1.16.0",
+    "i18next": "^17.0.1",
+    "i18next-sprintf-postprocessor": "^0.2.2"
+  },
+  "devDependencies": {
+    "@types/i18next": "^8.4.3",
+    "@types/i18next-sprintf-postprocessor": "^0.0.29",
+    "@types/jest": "^23.3.3",
+    "@types/node": "^10.11.4",
+    "bestzip": "^2.1.2",
+    "coveralls": "^3.0.2",
+    "cpx": "^1.5.0",
+    "jest": "^23.6.0",
+    "prettier": "^1.14.3",
+    "rimraf": "^2.6.2",
+    "ts-jest": "^23.10.3",
+    "ts-node": "^7.0.1",
+    "tslint": "^5.11.0",
+    "tslint-config-prettier": "^1.18.0",
+    "typescript": "^3.1.1"
+  },
+  "engines": {
+    "node": ">=8.10.0"
+  },
+  "jest": {
+    "preset": "ts-jest",
+    "coverageDirectory": "coverage",
+    "testMatch": [
+      "**/tests/**/*.[jt]s?(x)"
+    ]
+  },
+  "prettier": {
+    "singleQuote": false,
+    "trailingComma": "es5"
+  }
+}
