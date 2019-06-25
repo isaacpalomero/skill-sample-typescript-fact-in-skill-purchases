@@ -1,10 +1,14 @@
+//  - With this script you can add local ISP to .ask/config file automatically, download current ISP on remote
+// and add these too on .ask/config file
+//
 // How to use it:
+// change the 3 "const" with yours, and follow these steps:
 // [any-path]$ npm install -g "fs"
 // [any-path]$ npm install -g "execa"
-// [root-project-path]$ ts-node tools/AddMissingISPsToConfig.ts
+// [root-project-path]$ ts-node scripts/add-ISP-files-to-ask-config.ts
 
 // TODO: update this values with yours
-const askCli_ProfileName = "YOUR-PROFILE"; // Read and Update .ask/config file purpose
+const askCli_ProfileName = "YOUR-ASK-CLI-PROFILE"; // Read and Update .ask/config file purpose
 const ispFilesDirName = "isps"; // Read ISPs files from project
 const productStage: ProductStage = "development"; // Current SKill environment from Getting ISPs List
 // End-TODO
